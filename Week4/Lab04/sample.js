@@ -17,11 +17,8 @@ function displayFruits()
         displayText += "<p>"+ fruits[i];    
         displayText += " is "+ IsTropical(fruits[i]);
         displayText+="</p>";        
-    }
-
-    
+    }    
     document.getElementById("display-panel").innerHTML=displayText;
-
 }
 
 function IsTropical(fruit)
@@ -92,6 +89,7 @@ function EvenOrOddCalc()
 
 function EvenOrOdd()
 {    
+    //In this, identify the even and odd numbers
     document.getElementById("display-panel").innerHTML="";
     var evenOdd = [13,4,2,67,94,35,654];
     var even=odd="";
